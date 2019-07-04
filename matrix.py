@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import copy
-class Matrix:
+class Matrix(object):
     def __init__(self, element_list):
         self.m = len(element_list)      #stroka,   row, i, m
         self.n = len(element_list[0])   #stolbets, col, j, n
